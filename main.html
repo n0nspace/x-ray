@@ -1,14 +1,14 @@
 <!DOCTYPE html>
- 
-    <!--X-RAY by @nonspace.      
-    Find more of my work at https://nonspace.tumblr.com   
 
-    Don't steal.  
-    
+    <!--X-RAY by @nonspace.
+    Find more of my work at https://nonspace.tumblr.com
+
+    Don't steal.
+
     -->
-  
-<html> 
-<head>  
+
+<html>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/png" href="{Favicon}">
@@ -17,13 +17,13 @@
   {block:Description}
   <meta name="description" content="{MetaDescription}" />
   {/block:Description}
-  
+
   {block:Hidden}
   <meta name="theme-color" content="">
-  
+
   <meta name="image:Background" content="https://static.tumblr.com/hohmoxg/fV4pzube3/photo-1439871657251-7ba69b8f9e5f.jpg" />
   <meta name="image:Dark Background" content="https://static.tumblr.com/hohmoxg/qQDpzuhjp/harlie-raethel-ouyjdk-kdfy-unsplash.jpg" />
-  
+
   <meta name="if:Scroll Top" content="0" />
   <meta name="if:Archive Link" content="0"/>
   <meta name="if:Dark Mode" content="0"/>
@@ -36,7 +36,7 @@
   <meta name="color:Accent" content="#111" />
   <meta name="color:Accent Text" content="#fff" />
   <meta name="color:Highlight" content="#fff" />
-  
+
   <!--dark mode-->
   <meta name="color:Dark Text" content="#fff" />
   <meta name="color:Dark Bar Text" content="#fff" />
@@ -44,7 +44,7 @@
   <meta name="color:Dark Accent" content="#fff" />
   <meta name="color:Dark Accent Text" content="#111" />
   <meta name="color:Dark Highlight" content="#1f1f1f" />
-  
+
   <meta name="select:Background Blend Mode" title="Color Burn" content="Color-Burn" />
   <meta name="select:Background Blend Mode" title="Normal" content="Normal" />
   <meta name="select:Background Blend Mode" title="Multiply" content="Multiply" />
@@ -61,7 +61,7 @@
   <meta name="select:Background Blend Mode" title="Saturation" content="Saturation" />
   <meta name="select:Background Blend Mode" title="Screen" content="Screen" />
   <meta name="select:Background Blend Mode" title="Soft Light" content="Soft-Light" />
-  
+
   <meta name="select:Dark Background Blend Mode" title="Color Dodge" content="Color-Dodge" />
   <meta name="select:Dark Background Blend Mode" title="Normal" content="Normal" />
   <meta name="select:Dark Background Blend Mode" title="Multiply" content="Multiply" />
@@ -90,16 +90,16 @@
 
   <meta name="text:Font Size" content="14"/>
   <meta name="text:Headline Size" content="21"/>
-  
+
   <meta name="text:Dark Mode Start" content="20"/>
   <meta name="text:Dark Mode End" content="6"/>
-  
+
   <meta name="text:Social One Icon" content="fab fa-twitter-square"/>
   <meta name="text:Social One URL" content="/"/>
-  
+
   <meta name="text:Social Two Icon" content="fab fa-instagram"/>
   <meta name="text:Social Two URL" content=""/>
-  
+
   <meta name="text:Social Three Icon" content="fab fa-pinterest-square"/>
   <meta name="text:Social Three URL" content=""/>
 
@@ -107,23 +107,23 @@
 
    <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family={text:Font}|{text:Font Two}:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-  
+
   <!--X-RAY CSS-->
   <link rel="stylesheet" href="https://dl.dropbox.com/s/yswo9bwez5of8cr/x-ray.css">
 
   <!--jQUERY-->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  
+
   <!--X-RAY JS-->
   <script src="https://dl.dropbox.com/s/41jwt0d8zjjqg1q/x-ray.js" defer></script>
-  
+
   <!--FONT AWESOME-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  
+
   <!--CSS Photosets by egg.design & annathms-->
   <link href="https://static.tumblr.com/0podkko/xIbplezmo/modified_photosets.css" rel="stylesheet" defer>
   <script src="https://static.tumblr.com/0podkko/jfMplm3f8/modified_photosets.js" defer></script>
-  
+
   <script>
     {block:ifDarkMode}var darkMode = true;{/block:ifDarkMode}
     var darkModeStart = {text:dark mode start};
@@ -155,11 +155,11 @@
   --background: {color:background};
   --backgroundImage: url('{image:background}');
   --backgroundBlend: {select:background blend mode};
-  
+
   --highlight: {color:highlight};
   --accent: {color:accent};
   --accentText: {color:accent text};
-  
+
   --border: 1px solid var(--transparentHighlight);
   --boxShadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 }
@@ -228,29 +228,29 @@ main {
 
 </head>
 
-<body> 
+<body>
   {block:ifScrollTop}
   <div id="scrolltop" role="button" tabindex="0"><i class="fas fa-arrow-up"></i></div>
   {/block:ifScrollTop}
 <!--CONTROLS & MOBILE--------------------------------------------------->
   <!--MOBILE NAVIGATION-->
-  
-  
+
+
 <!--CONTROLS END-------------------------------------------------------->
-  
+
     <!--
     <section id="footer">
-      
+
     </section>-->
-    
+
    </div>
   </div>
-  
+
 <!--CONTAINER----------------------------------------------------------->
   <div id="wrapper">
-  
+
 <!--SIDE---------------------------------------------------------------->
-    
+
     <!--LEFT BAR-->
     <nav>
       <ul>
@@ -258,11 +258,11 @@ main {
         <li class="main_title"><a href="/">{Name}</a></li>
       </ul>
     </nav>
-    
+
     <!--MOBILE MENU-->
     <div class="about_img_sub">
       {block:ifShowAvatar}
-      <img src="{PortraitURL-64}">
+      <a href="/"><img src="{PortraitURL-64}"></a>
       {/block:ifShowAvatar}
       <h3><a href="/">{Title}</a></h3>
     </div>
@@ -283,7 +283,7 @@ main {
             {Description}
         </div>
       </div>
-      
+
       <!--MENU LINKS-->
       <div id="link_box" class="side_box">
         <div>
@@ -306,7 +306,7 @@ main {
           </ul>
         </div>
       </div>
-      
+
       <!--SOCIAL-->
       <div id="social">
         <ul>
@@ -315,13 +315,13 @@ main {
           {/block:IfSocialOneUrl}
           {block:IfSocialTwoUrl}
           <li><a href="{text:social two url}"><i class="{text:social two icon}"></i></a></li>
-          {/block:IfSocialTwoUrl} 
+          {/block:IfSocialTwoUrl}
           {block:IfSocialThreeUrl}
           <li><a href="{text:social three url}"><i class="{text:social three icon}"></i></a></li>
           {/block:IfSocialThreeUrl}
         </ul>
       </div>
-     
+
       <!--PAGINATION-->
       {block:Pagination}
       <div id="pagination">
@@ -332,10 +332,10 @@ main {
         {block:NextPage}<a href="{NextPage}"><span>></span></a>{/block:NextPage}
       </div>
       {/block:Pagination}
-     
+
      </div><!--side_wrap-->
     </aside>
-    
+
     <!--SEARCH BAR-->
     <div id="search_bar" class="search">
       <i class="fas fa-search"></i>
@@ -344,16 +344,16 @@ main {
             value="{SearchQuery}" placeholder="{lang:Search}...">
       </form>
     </div>
-    
+
     <!--DARK MODE-->
     {block:ifDarkMode}
       <input type="checkbox" id="mode_input" />
       <label class="theme-switch" for="mode_input">
       </label>
     {/block:ifDarkMode}
-    
+
 <!--POST CONTAINER------------------------------------------------------>
-    
+
     <main>
       <!--TAG & SEARCH RESULT INFO-->
       {block:TagPage}
@@ -373,13 +373,13 @@ main {
         </h2>
       </div>
       {block:SearchPage}
-      
+
       {block:NoPosts}
       <div class="tag_info no_post">
         <h2>{lang:Sorry no posts found}</h2>
       </div>
       {/block:NoPosts}
-      
+
       <!--POSTS-->
       {block:Posts}
       <div class="article_wrapper">
@@ -629,12 +629,12 @@ main {
       {/block:ContentSource}
       <!--{block:NoRebloggedFrom}{block:RebloggedFrom}{ReblogParentName}
         {/block:RebloggedFrom}{/block:NoRebloggedFrom} -->
-      {/block:Posts} 
-    </main>  
+      {/block:Posts}
+    </main>
 <!--POST CONTAINER END-------------------------------------------------->
-    
+
 </div>
-  
+
 <!--CONTAINER END------------------------------------------------------->
 
 <div id="nnspc"><a href="//nonspace.tumblr.com">n.</a></div>
