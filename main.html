@@ -267,7 +267,7 @@ main {
       <h3><a href="/">{Title}</a></h3>
     </div>
     <input id="mobile_button" type="checkbox" name="mobile_menu" />
-    <label id="tumblr_controls" for="mobile_button"><i class="fas fa-bars"></i></label> 
+    <label id="tumblr_controls" for="mobile_button"><i class="fas fa-bars"></i></label>
     <!--SIDEBAR-->
     <aside id="mobile_menu">
      <div class="side_wrap">
@@ -294,12 +294,12 @@ main {
             {/block:AskEnabled}
             {block:SubmissionsEnabled}
             <li><a href="/submit" title="{SubmitLabel}">{SubmitLabel}</a></li>
+            {/block:SubmissionsEnabled}
             {block:HasPages}
             {block:Pages}
             <li><a href="{URL}" title="{Label}">{Label}</a></li>
             {/block:Pages}
             {/block:HasPages}
-            {/block:SubmissionsEnabled}
             {block:ifArchiveLink}
             <li><a href="/archive" title="{lang:Archive}">{lang:Archive}</a></li>
             {block:ifArchiveLink}
